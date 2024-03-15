@@ -25,15 +25,30 @@ body {
 section{
     width: 90vw;
     margin: auto;
-    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px;
     flex: 1 0 auto;
     text-align: center;
 }
+h2{
+    padding: 20px;
+}
 .noticiaDia{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.2em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.projetos{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.2em;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 20px;
