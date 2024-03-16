@@ -7,7 +7,11 @@
 header {
     text-align: center;
     width: 100%;
-    background-color: rgb(199, 27, 27);
+    background-image: linear-gradient(
+    45deg,
+    red ,
+    rgb(236, 71, 6),
+    rgb(255, 136, 0));
     color: #fff;
     padding: 10px;
 }
@@ -35,6 +39,7 @@ section{
 }
 h2{
     padding: 20px;
+    text-align: center;
 }
 .noticiaDia{
     padding-top: 5px;
@@ -45,13 +50,21 @@ h2{
     font-size: 20px;
 }
 
-.projetos{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    line-height: 1.2em;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 20px;
+div.projetos{
+    width: 65vw;
+    margin: auto; 
+}
+ul > li{
+    padding: 5px;
+}
+ul > li > a{
+    font-size: large;
+    text-decoration: none;
+    color: red;
+}
+ul > li > a:hover{
+    text-decoration: underline;
+    color: rgb(139, 5, 5);
 }
 
 section > p{
@@ -73,7 +86,11 @@ div.projetos > a:hover{
 }
 footer {
     font-size: 15px;
-    background-color: rgb(199, 27, 27);
+    background-image: linear-gradient(
+    45deg,
+    red ,
+    rgb(236, 71, 6),
+    rgb(255, 136, 0));
     color: #fff;
     flex-shrink: 0;
     padding: 10px;
